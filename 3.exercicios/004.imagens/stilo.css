@@ -1,7 +1,14 @@
 body {
   background-color: black;
 }
-
+.titulo{
+  color: aliceblue;
+  margin: 10 auto;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  background-color:blue;
+}
 iframe {
   /* Manipulação da borda */
   border: none;
@@ -20,11 +27,11 @@ iframe {
   height: 400px;
 }
 
-.dois {
+.texto {
   background-color: aqua;
   border-radius: 20px;
   text-align: center;
   font-size: 30px;
   margin: 0 auto;
-  width: 50%;
+  width: 95%;
 }
