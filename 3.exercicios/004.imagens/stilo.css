@@ -1,26 +1,30 @@
-body{
+body {
   background-color: black;
 }
-iframe {
-    /* Manipulação da borda */
-    border: none;
-    height: 900px;
-    width: 100%;
-  }
-  .videos {
-    display: flex;
-    justify-content: space-between;
-  }
-  .video1, .video2 {
-    width: 47%;
-    height: 400px;
-  }
 
-.dois{
+iframe {
+  /* Manipulação da borda */
+  border: none;
+  height: 900px;
+  width: 100%;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video1,
+.video2 {
+  width: 47%;
+  height: 400px;
+}
+
+.dois {
   background-color: aqua;
   border-radius: 20px;
   text-align: center;
   font-size: 30px;
-  margin: 0 auto ;
+  margin: 0 auto;
   width: 50%;
 }
