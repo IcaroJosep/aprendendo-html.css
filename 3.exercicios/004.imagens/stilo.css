@@ -3,11 +3,14 @@ body {
 }
 .titulo{
   color: aliceblue;
-  margin: 10 auto;
+  margin: 20 auto;
+  margin-left: 25%;
   font-size: 50px;
   text-align: center;
   border-radius: 20px;
   background-color:blue;
+  width: 50%;
+ 
 }
 iframe {
   /* Manipulação da borda */
