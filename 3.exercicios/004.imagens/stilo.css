@@ -1,5 +1,9 @@
+body{
+  background-color: black;
+}
 iframe {
     /* Manipulação da borda */
+    display: flex;
     border: none;
     height: 900px;
     width: 100%;
@@ -13,8 +17,13 @@ iframe {
   width: 50%;
 }
 .um{
-  
+
 }
 .dois{
-
+  background-color: aqua;
+  border-radius: 2cm;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0;
+  width: 50%;
 }
