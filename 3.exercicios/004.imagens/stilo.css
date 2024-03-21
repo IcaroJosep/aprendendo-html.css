@@ -3,27 +3,24 @@ body{
 }
 iframe {
     /* Manipulação da borda */
-    display: flex;
     border: none;
     height: 900px;
     width: 100%;
   }
-.video1{
-  height: 500px;
-  width: 50%;
-}
-.video2{
-  height: 500px;
-  width: 50%;
-}
-.um{
+  .videos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .video1, .video2 {
+    width: 47%;
+    height: 400px;
+  }
 
-}
 .dois{
   background-color: aqua;
-  border-radius: 2cm;
+  border-radius: 20px;
   text-align: center;
   font-size: 30px;
-  margin: 0 0;
+  margin: 0 auto ;
   width: 50%;
 }
