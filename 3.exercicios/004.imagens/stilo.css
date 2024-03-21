@@ -1,17 +1,19 @@
 body {
   background-color: black;
 }
-.titulo{
+
+.titulo {
   color: aliceblue;
   margin: 20 auto;
   margin-left: 25%;
   font-size: 50px;
   text-align: center;
   border-radius: 20px;
-  background-color:blue;
+  background-color: blue;
   width: 50%;
- 
+
 }
+
 iframe {
   /* Manipulação da borda */
   border: none;
@@ -30,6 +32,12 @@ iframe {
   height: 400px;
 }
 
+.video3 {
+  width: 47%;
+  height: 400px;
+  margin-left: 25%;
+}
+
 .texto {
   background-color: aqua;
   border-radius: 20px;
@@ -38,4 +46,3 @@ iframe {
   margin: 0 auto;
   width: 95%;
 }
-
