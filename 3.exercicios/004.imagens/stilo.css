@@ -32,7 +32,8 @@ iframe {
   height: 400px;
 }
 
-.video3 {
+.video3,
+.video4 {
   width: 47%;
   height: 400px;
   margin-left: 25%;
@@ -45,4 +46,18 @@ iframe {
   font-size: 30px;
   margin: 0 auto;
   width: 95%;
+}
+
+.duas-colunas-imgDRT {
+  display: flex;
+}
+
+.duas-colunas-imgDRT img {
+  margin: 10px 200px;
+}
+
+.duas-colunas-imgDRT p {
+  width: 50%;
+  margin: auto auto;
+  font-size: 50px;
 }
