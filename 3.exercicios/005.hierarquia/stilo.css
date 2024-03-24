@@ -1,0 +1,17 @@
+body{background-color:black;}
+
+
+
+  
+.video1{
+    width: 47%;
+    height: 400px;
+    margin-left: 25%;
+ }
+  
+
+aside iframe{
+  border: none;
+  height: 900px;
+  width: 100%;
+}
