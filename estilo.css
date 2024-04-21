@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.titulo {
+  color: aliceblue;
+  margin: 20 auto;
+  margin-left: 25%;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: blue;
+  width: 50%;
+
+}
+
+.texto {
+  background-color: aqua;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+
+.video1 {
+  width: 47%;
+  height: 400px;
+  margin-left: 25%;
+}
+
+
+aside iframe {
+  border: none;
+  height: 900px;
+  width: 100%;
+}
