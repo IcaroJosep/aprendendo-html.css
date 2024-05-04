@@ -23,6 +23,17 @@ body {
   width: 95%;
 }
 
+.video-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+}
+
+.video-reponcivo {
+  width: 50%;
+  margin: 0;
+  aspect-ratio: 16 / 9; /* Definir a proporção de aspecto (por exemplo, 16:9 para YouTube) */
+}
 
 
 .video1 {

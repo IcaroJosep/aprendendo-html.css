@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+    <link rel="stylesheet" href="../../estilo.css">
+</head>
+
+<body>
+    <h1 class="titulo">imagens dinamicas</h1>
+
+    <div class="video-container ">
+        <iframe class="video-reponcivo"
+            src="https://www.youtube.com/embed/E01LDVj0Rpg?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+            title="Imagens Dinâmicas - @Curso em Vídeo HTML5 e CSS3" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+    <br>
+
+    <div class="texto">
+        <h2><b>imagens geradas</b></h2>
+        <hr>
+        <div>
+            <a style="display: block;" href="imagems/img-P.png" target="_blank">img-P</a>
+            <a style="display: block;" href="imagems/img-M.png" target="_blank">img-M</a>
+            <a style="display: block;" href="imagems/img-G.png" target="_blank">img-G</a>
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <div class="video-container">
+        <iframe class="video-reponcivo" src="https://www.youtube.com/embed/cAgkwPWE4hU"
+            title="Imagens que se adaptam sozinhas - @Curso em Vídeo HTML5 e CSS3" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+    </div>
+    <br>
+
+    <br>
+    <div class="texto">
+        <h2><b>responsividade de img</b></h2>
+        <hr>
+        <br>
+        <div>
+            <div style="display:inline-block; justify-content: center;">
+                <div style="width: 100%; background-color:aliceblue; color: black; ">
+                    <p><b>code:</b></p>
+                    <p>
+                        <img style="width: 90%;" src="imagems/code.PNG" alt="codigo"> 
+                    </p>
+                </div>
+                <div style="width: 100%; background-color: black; color: aliceblue;">
+                    <p>
+                        a teg &lt;picture> <br>
+                        contem esta responsividade no caso de imagens
+                    </p>
+                    <p>
+                        a declaracao de img seg normal <br>
+                        nela esta a declarada a imagem grande <br> 
+                        que sera usada acimade de 1050px. 
+                    </p>                   
+                    <p>
+                        o elemento <strong style="color: red;"><i>media</i></strong> <br> define ate q largura de tela ele deve usar a imagem <br>
+                        no elemento <strong style="color: red;"><i>srcset</i></strong> <br> indentifica a imagen q devera ser usada
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagems/img-P.png">
+            <source media="(max-width: 1050px)" srcset="imagems/img-M.png">
+            <img style="width: 82%;" src="imagems/img-G.png" alt="imagen flexivel">
+        </picture>
+    </div>
+    <br>
+    <aside>
+        <iframe src="11 - Imagens dinâmicas, áudios e vídeos.pdf" frameborder="0"></iframe>
+    </aside>
+</body>
+
+</html>
