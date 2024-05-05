@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias e audios</title>
+    <link rel="stylesheet" href="../../estilo.css">
+</head>
+
+<body>
+
+    <h1 class="titulo"><I><B>AUDIOS E MIDIAS </B></I></h1>
+
+    <div class="video-container">
+        <iframe class="video-reponcivo" src="https://www.youtube.com/embed/4OZYsFl-J9s"
+            title="Colocando áudio no seu site - @Curso em Vídeo HTML5 e CSS3" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="texto">
+        <h2><strong><I>audios</I></strong></h2>
+        <hr>
+        
+        <h3><i>reproduzindo audios com teg &lt;audio></i></h3>
+        <hr>
+        <div style="display:flex; justify-content: center;">
+            <div style="width: 40%; margin: 1% 2.5%; background-color:aliceblue; color: black; ">
+
+                <audio style="width: 90%; height:
+                 50%; margin: 5% 5%;" preload="auto" src="midias/happy-mistake.mp3" controls></audio>
+
+            </div>
+            <div style="width: 40%; margin: 1% 2.5%; background-color: black; color: aliceblue;">
+                <p><i><b>code:</b></i></p>
+                <img style="width: 99%;" src="img/code1.PNG" alt="codigo">
+                <p>-controls : sao os controles de play</p>
+                <p>-autoplay : é auto explicativo</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <h3><i>reptoduindo audios com TAGs &lt;audio> e &lt;source></i></h3>
+        <hr>
+        <div style="display:flex; justify-content: center;">
+            <div style="width: 40%; margin: 1% 2.5%; background-color:aliceblue; color: black; ">
+                <br>
+                <audio style="width: 90%; height:50%" preload="metadata" controls>
+                    <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+                    <source src="midias/guanacast-33 .ogg" type="audio/ogg">
+                    <source src="midias/guanacast-33 .wav" type="audio/wav">
+                </audio>
+                <p>
+                    <a href="midias/guanacast-33.mp3" download="guanacast-33.mp3" type="áudio/mpeg">
+                        Download MP3
+                    </a></audio>
+                </p>
+                <br>
+            </div>
+            <div style="width: 40%; margin: 1% 2.5%; background-color: black; color: aliceblue;">
+                <p><i><b>CODE:</b></i></p>
+                <img src="img/code2.PNG" alt="codigo">
+                <ul>
+                    <li>
+                        <p>
+                            a ordem de tentativas é de cima para baixo primeiro o navegador tenta o <b>mp3</b> se nao
+                            comseguir tentara o <b>ogg</b> e por utimo o <b>wav</b>
+                        </p>
+                    </li>
+
+                    <li>preload <br>tem 3 posibilidades: <br><br></li>
+                    <ul>
+                        <li>auro: carrega a midia previamente <br><br></li>
+                        <li>metadata: pre carega informacoes do arv como tempo de duracao <br><br></li>
+                        <li>none: nao precarega nada so quando usuario da play</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+
+
+    <aside>
+        <iframe src="11 - Imagens dinâmicas, áudios e vídeos.pdf" frameborder="0"></iframe>
+    </aside>
+
+</body>
+
+</html>
