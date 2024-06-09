@@ -1,40 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psicologia das Cores</title>
     <link rel="stylesheet" href="../../estilo.css">
 </head>
+
 <body>
     <H1 class="titulo"><strong><i>Psicologia das Cores</i></strong></H1>
-    
+
     <div class="video-container">
-        <iframe class="video-reponcivo" src="https://www.youtube.com/embed/A8UNBs7nxw4?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" title="Psicologia das Cores - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="video-reponcivo"
+            src="https://www.youtube.com/embed/A8UNBs7nxw4?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s"
+            title="Psicologia das Cores - @Curso em Vídeo HTML5 e CSS3" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
 
     <div class="texto">
         <h2><i><strong>Cores</strong></i></h2>
-        <img src="coresSign.png" alt="significado cores">
+        <img width="90%" src="coresSign.png" alt="significado cores">
+
         <hr>
+
         <h2><i><strong>Como representar cores</strong></i></h2>
-         <div style="background-color: aliceblue;">
-            <h3><i>Exemplo</i></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias ea explicabo eligendi, illo excepturi, quia maxime vero est magnam provident eos aliquid inventore optio repudiandae itaque aut voluptatum voluptatem asperiores.</p>
-            <h3><i>Exemplo</i></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et, quasi officiis aperiam non voluptate tempora molestiae! Quos accusamus modi id ipsum ipsa doloremque, dolores illum maxime repudiandae, quam in.</p>
-            <h3><i>Exemplo</i></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, fugiat beatae. Corrupti, aspernatur! Saepe provident sequi deleniti eos similique quasi, error quidem incidunt cumque debitis fugit corporis perferendis quos repellat?</p>
-            <h3><i>Exemplo</i></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, fuga numquam. Quibusdam fugit et minima quod suscipit molestiae aspernatur sed aut repudiandae laborum ipsam ea distinctio, ad adipisci id expedita!</p>
+        <p>
+            As cores poden ser representadas de 3 formas alem do nome sao elas:
+        </p>
+        <img src="img/ginp color.PNG" alt="">
+
+        <div style="display: flex; justify-content: center;">
+            <div style=" width: 90% ;background-color: rgba(240, 255, 246, 0.897);">
+
+                <h3 style="background-color: blue;color: white;"><i>Exemplo Nome:</i></h3>
+                <div style="display: flex; justify-content: center;">
+                    <p style="width: 80%; text-align: left; background-color: #ff00005d;">
+                        neste caso na atribuicao da cor chamamos pelo seu nome!<br>
+                        background-color: <strong>blue</strong> ;color: <strong>white</strong>;<br>
+                        <img src="img/nome color.png" alt="color name">
+                    </p>
+                </div>
+                <h3 style="background-color: #0000ff;color:#ffffff;"><i>Exemplo Hexadecimal</i></h3>
+                <div style="display: flex; justify-content: center;">
+                    <p style="width: 80%; text-align: left; background-color: #ff00005d;">
+                        Neste caso a cor é formada tbm definido a comtidade de cada cor primaria (red ,blue , green)
+                        <br> Utilizando uma numeracao hexadecimal <br> Semdo definida a comtidade de cor : vermelha
+                        depos azul e por utimo verde <br>
+                        background-color: <strong>#0000ff</strong>;color:<strong>#ffffff</strong>;"<br>
+                        <img width="95%" src="img/hexa.png" alt="color hexa">
+                    </p>
+                </div>
+                <h3 style="background-color:rgb(0, 0, 255);color:rgb(255, 255, 255);"><i>Exemplo</i></h3>
+                <div style="display: flex; justify-content: center;">
+                    <p style="width: 80%; text-align: left; background-color: #ff00005d;">
+                        Praticamente igual a hexa porem utiliza uma numeracao q vai de 0 a 255 para defitir o volume de
+                        cada cor <br>
+                        background-color:<strong>rgb(0, 0, 255)</strong>;color:<strong>rgb(255, 255, 255)</strong>;<br>
+                        <img src="img/rgm.png" alt="color hexa">
+                    </p>
+                </div>
+                <h3 style="background-color:hsl(240, 100%, 50%);color:hsl(0, 0%, 100%);"><i>Exemplo</i></h3>
+                <div style="display: flex; justify-content: center;">
+                    <p style="width: 80%; text-align: left; background-color: #ff00005d;">
+                        E logica e sintaticamente bem parecido com o modelo RBG <br> Porem utiliza os conceitos de
+                        MATRIS , SATURACAO e LUMINOSIDADE.
+                        background-color:<strong>hsl(240, 100%, 50%)</strong>;color:<strong>hsl(0,
+                            0%,100%)</strong>;<br>
+                        <img src="img/HSL.png" alt="color hexa">
+                    </p>
+                </div>
+            </div>
         </div>
-        
+        <br>
+        <div style="display: flex; justify-content: center;">
+            <div style="width: 90%; background-color: #04f35491; text-align: left;">
+                <h3><Strong>observaçao:</Strong></h3>
+                <hr>
+                <ul>
+                    <li>Tambem é posivel definir trasnparencia</li>
+                    <li>no vs code quando se pasa o mause por cima da cor definida</li>
+                    <li>aparecera uma janela na qual é posivel escolher a cor e tbm a trasparencia.</li>
+                    <li>a transoarencia adiciona mas um grupo de numeros a atribucao da cor </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div style="display: flex; justify-content: center;">
+            <div style="width: 90%; background-color: #0000ff9f;">
+                <p>Exemplo</p>
+                <dl style="text-align: left; background-color: rgba(255, 255, 255, 0.61);">
+                    <dt>rbg: </dt>
+                    <dd>background-color: rgb<strong>a</strong>(0, 0, 255, <strong>0.624</strong>);</dd>
+                    <dt>hexa: </dt>
+                    <dd>background-color: #0000ff<strong>9f</strong>;</dd>
+                    <dt>hsl: </dt>
+                    <dd>hsl<strong>a</strong>(240, 100%, 50%, <strong>0.624</strong>)</dd>
+                </dl>
+                <p>
+                    A demarcaçao na tabela define a trasparencia
+                </p>
+                <img src="img/tabelaVS.png" alt="">
+            </div>
+        </div>
+        <br>
     </div>
 
-<aside>
-    <iframe src="13 - Cores.pdf" frameborder="0"></iframe>
-</aside>
+
+    <aside>
+        <iframe src="13 - Cores.pdf" frameborder="0"></iframe>
+    </aside>
 
 </body>
+
 </html>
